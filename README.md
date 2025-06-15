@@ -56,12 +56,17 @@ Enter your password: ********
 Analyzing password...
 
 Length is 8+ characters
+
 Missing lowercase letter
+
 Contains uppercase letter
+
 Contains digit
+
 Missing special character
 
 Score: 3/5
+
 Strength: Moderate
 
  Suggestions to improve:
