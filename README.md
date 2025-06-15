@@ -21,3 +21,21 @@ This project is part of my Prodigy interniship program, which is building a simp
 - Check against common password dictionary
 - Random strong password generator (--generate flag)
 
+
+## Installation
+
+Clone the repository and navigate into the project directory:
+
+```bash
+git clone https://github.com/mz-mukhtar/PRODIGY_CS_03.git
+cd PRODIGY_CS_03
+```
+-- Make sure you have python 3.x installed. you can check that by using the following comand
+```bash
+python --version
+```
+or
+
+```bash
+python3 --version
+```
