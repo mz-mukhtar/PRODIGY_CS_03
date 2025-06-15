@@ -54,7 +54,7 @@ def evaluate_password(password):
     return score, checks
 
 def main():
-    print(" Welcome to the Password Complexity Checker!\n")
+    print("Welcome to the Password Complexity Checker!\n")
     password = getpass.getpass("Enter your password: ")
 
     print("\n Analyzing password...\n")
@@ -64,6 +64,27 @@ def main():
         print(r)
 
     print(f"\n Score: {score}/5")
+
+    # Strength rating
+    if score <= 2:
+        print("Strength: Weak")
+    elif score == 3:
+        print("Strength: Moderate")
+    else:
+        print("Strength: Strong")
+
+    # Suggestions
+    print("\n Suggestions to improve:")
+    if not check_length(password):
+        print("- Use at least 8 characters")
+    if not check_lowercase(password):
+        print("- Add some lowercase letters (a–z)")
+    if not check_uppercase(password):
+        print("- Add uppercase letters (A–Z)")
+    if not check_digit(password):
+        print("- Include digits (0–9)")
+    if not check_special_char(password):
+        print("- Use special characters (!@#$ etc.)")
 
 if __name__ == "__main__":
     main()
