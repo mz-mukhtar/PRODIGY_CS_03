@@ -30,7 +30,7 @@ Clone the repository and navigate into the project directory:
 git clone https://github.com/mz-mukhtar/PRODIGY_CS_03.git
 cd PRODIGY_CS_03
 ```
-- - Make sure you have python 3.x installed. you can check that by using the following comand
+- Make sure you have python 3.x installed. you can check that by using the following comand
 ```bash
 python --version
 ```
