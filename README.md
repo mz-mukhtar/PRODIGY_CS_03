@@ -48,3 +48,23 @@ or, if you are using python 3specifically:
 ```bash
 python3 checker.py
 ```
+## Example Output
+Welcome to the Password Complexity Checker!
+
+Enter your password: ********
+
+Analyzing password...
+
+Length is 8+ characters
+Missing lowercase letter
+Contains uppercase letter
+Contains digit
+Missing special character
+
+Score: 3/5
+Strength: Moderate
+
+ Suggestions to improve:
+- Add some lowercase letters (a–z)
+- Use special characters (!@#$ etc.)
+
