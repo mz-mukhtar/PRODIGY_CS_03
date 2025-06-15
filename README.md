@@ -55,19 +55,19 @@ Enter your password: ********
 
 Analyzing password...
 
-Length is 8+ characters
+		Length is 8+ characters
 
-Missing lowercase letter
+		Missing lowercase letter
 
-Contains uppercase letter
+		Contains uppercase letter
 
-Contains digit
+		Contains digit
 
-Missing special character
+		Missing special character
 
-Score: 3/5
+	Score: 3/5
 
-Strength: Moderate
+	Strength: Moderate
 
  Suggestions to improve:
 - Add some lowercase letters (a–z)
