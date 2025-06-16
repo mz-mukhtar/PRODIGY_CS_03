@@ -18,11 +18,11 @@ def check_special_char(password):
     return any(char in special_characters for char in password)
 
 def main():
-    print("🔐 Welcome to the Password Complexity Checker!\n")
+    print("Welcome to the Password Complexity Checker!\n")
     
     password = getpass.getpass("Enter your password: ")
     
-    print("\n🔎 Analyzing password...\n")
+    print("\n Analyzing password...\n")
     
     score = 0
     
